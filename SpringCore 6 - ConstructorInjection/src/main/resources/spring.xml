@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="triangle" class="pl.tr0k.javabrains.Triangle">
+        <constructor-arg value="Equilateral"/>
+        <constructor-arg value="20"/>
+    </bean>
+
+    <bean id="triangle1" class="pl.tr0k.javabrains.Triangle">
+        <constructor-arg value="20"/>
+    </bean>
+
+    <bean id="triangle2" class="pl.tr0k.javabrains.Triangle">
+        <constructor-arg value="Equilateral"/>
+    </bean>
+
+    <bean id="triangle3" class="pl.tr0k.javabrains.Triangle">
+        <constructor-arg type="int" value="1112"/>
+    </bean>
+
+
+    <bean id="triangleIndexes" class="pl.tr0k.javabrains.Triangle">
+        <constructor-arg index="1" value="321321"/>
+        <constructor-arg index="0" value="string"/>
+    </bean>
+
+</beans>

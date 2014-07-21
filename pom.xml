@@ -11,6 +11,7 @@
     <modules>
         <module>SpringCore 7 - InjectingObjects</module>
         <module>SpringCore 6 - ConstructorInjection</module>
+        <module>SpringCore 8 - InnerBeans</module>
     </modules>
 
 </project>
